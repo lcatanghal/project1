@@ -1,0 +1,79 @@
+
+
+body {
+    height: 100%;
+}
+
+.hero-text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; doesnt work */
+    max-width: 200px;
+
+}
+
+.hero-image {
+    background-image: url('https://cdn.britannica.com/74/230674-050-EF527C50/Landscape-of-Qibao-Old-Town-in-Shanghai-China.jpg');
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0px;
+}
+
+
+
+div.activities {
+    background: #F1FAEE;
+    padding: 4px;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.cards {
+    border-radius: 50%;
+}
+
+div.card1 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+}
+
+div.card2 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+}
+
+div.card3 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+}
+
+.avatar {
+    width: 150px;
+    margin: 10px;
+}
+
+.guide {
+    width: 400px;
+    margin: 40px auto;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom: 6px solid #d8cefe;
+
+}
